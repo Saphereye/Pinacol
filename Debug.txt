@@ -1,0 +1,13 @@
+Input List:['never', 'gonna', 'give', 'you', 'up', 'never', 'gonna', 'let', 'you', 'down']
+Frequency Key dictionary:{'never': 2, 'gonna': 2, 'give': 1, 'you': 2, 'up': 1, 'let': 1, 'down': 1}
+Order by Frequency:['never', 'gonna', 'you', 'give', 'up', 'let', 'down']
+Encoded output : 
+Encoded output : 0
+Encoded output : 00
+Encoded output : 1
+Encoded output : 11
+Encoded output : 
+Encoded output : 0
+Encoded output : 10
+Encoded output : 1
+Encoded output : 001
