@@ -10,30 +10,30 @@ How it works:
   4) Then an encrypted sentence and a 'secret' list(containing the order by frequency) are released.  
   5) If single character encrypted word are together, we do not use a separator, but for multiple character we do use  
 
-Example working:
- Lets say you wish to encrypt the sentence : 'never gonna give you up never gonna let you down'
- and our key list is [0,1](Can be anything until it's a list of unique elements)
+Example working:  
+ Lets say you wish to encrypt the sentence : 'never gonna give you up never gonna let you down'  
+ and our key list is [0,1](Can be anything until it's a list of unique elements)  
  
- Then on ordering by frequency : never:2 
- 				 gonna:2 
-				 give:1 
-				 you:2 
-				 up:1 
-				 let:1 
-				 down:1
+ Then on ordering by frequency : never:2   
+ 				 gonna:2  
+				 give:1   
+				 you:2   
+				 up:1   
+				 let:1   
+				 down:1  
 
- Then on exchanging the values with new values;
- 		    never:0 
- 		    gonna:1
-		    you:00
-		    give:01
-		    up:10
-		    let:11
-		    down:000
+ Then on exchanging the values with new values;  
+ 		    never:0   
+ 		    gonna:1  
+		    you:00  
+		    give:01  
+		    up:10  
+		    let:11  
+		    down:000  
 
-Then we will create two files,
-	1) One our encrypted file, outputFile.das -> .000.111..010.1001. ('.' is separator, you can use anything else)
-	2) Second a secret file, secret.das -> never gonna you give up let down
+Then we will create two files,  
+	1) One our encrypted file, outputFile.das -> .000.111..010.1001. ('.' is separator, you can use anything else)  
+	2) Second a secret file, secret.das -> never gonna you give up let down  
 
 Thoughts:
 Pinacol acts like a wonderful compression algorithm for large files with lot of patterns
