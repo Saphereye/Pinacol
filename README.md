@@ -14,10 +14,11 @@ Currently works only for textual files(Image compression in progress)
  Lets say you wish to encrypt the sentence : 'never gonna give you up never gonna let you down'  
  and our key list is [0,1](Can be anything until it's a list of unique elements)  
  
- Then on ordering by frequency : 1) never:2
- 				 2) gonna:2
-				 3) give:1   
-				 you:2   
+ Then on ordering by frequency : 
+ 	1) never:2
+	2) gonna:2
+	3) give:1
+	you:2   
 				 up:1   
 				 let:1   
 				 down:1  
