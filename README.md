@@ -15,15 +15,17 @@ Currently works only for textual files(Image compression in progress)
  and our key list is [0,1](Can be anything until it's a list of unique elements)  
  
  Then on ordering by frequency : 
- 	1) never:2
-	2) gonna:2
-	3) give:1
-	you:2   
-				 up:1   
-				 let:1   
-				 down:1  
-
+ ```
+never:2
+gonna:2
+give:1
+you:2   
+up:1   
+let:1   
+down:1
+```
  Then on exchanging the values with new values;  
+ ```
  		    never:0   
  		    gonna:1  
 		    you:00  
@@ -31,7 +33,8 @@ Currently works only for textual files(Image compression in progress)
 		    up:10  
 		    let:11  
 		    down:000  
-
+		    
+```
 Then we will create two files,  
 	1) One our encrypted file, outputFile.das -> .000.111..010.1001. ('.' is separator, you can use anything else)  
 	2) Second a secret file, secret.das -> never gonna you give up let down  
