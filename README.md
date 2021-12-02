@@ -26,14 +26,13 @@ down:1
 ```
  Then on exchanging the values with new values;  
  ```
- 		    never:0   
- 		    gonna:1  
-		    you:00  
-		    give:01  
-		    up:10  
-		    let:11  
-		    down:000  
-		    
+never:0   
+gonna:1  
+you:00  
+give:01  
+up:10  
+let:11  
+down:000  		    
 ```
 Then we will create two files,  
 	1) One our encrypted file, outputFile.das -> .000.111..010.1001. ('.' is separator, you can use anything else)  
@@ -45,7 +44,7 @@ Pinacol acts like a wonderful compression algorithm for large files with lot of 
 Example an average book has about 10,000 words out of which 1000 are unique and an average length of words is 5 which   
 my algorithm(witha big enough key) can compress down to 2 letters(maximum)  
 
-Thus your ~50,000 letters + ~1000 whitespaces = ~51,000 bytes  
-is compressed down to ~2000 letters + ~1000 separators = ~3000 bytes i.e. 5.882% of original  
+Thus ```~50,000 letters + ~1000 whitespaces = ~51,000 bytes  ```
+is compressed down to ```~2000 letters + ~1000 separators = ~3000 bytes ```i.e. 5.882% of original  
 
 Any improvement to my calculations is appreciated  
