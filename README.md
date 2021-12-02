@@ -1,5 +1,5 @@
 # Pinacol
-Python program for encryptIoN And COmpression of FiLes
+Python program for encryptIoN And COmpression of fiLes
 
 Currently works only for textual files(Image compression in progress)
 
