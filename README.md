@@ -45,6 +45,6 @@ Example an average book has about 10,000 words out of which 1000 are unique and 
 my algorithm(witha big enough key) can compress down to 2 letters(maximum)  
 
 Thus ```~50,000 letters + ~1000 whitespaces = ~51,000 bytes  ```
-is compressed down to ```~2000 letters + ~1000 separators = ~3000 bytes ```i.e. 5.882% of original  
+is compressed down to ```~2000 letters + ~1000 separators = ~3000 bytes ```i.e. 6% of original  
 
 Any improvement to my calculations is appreciated  
