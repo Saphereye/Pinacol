@@ -4,11 +4,11 @@ Python program for encryptIoN And COmpression of FiLes
 Currently works only for textual files(Image compression in progress)
 
 How it works:
-  1) Breaks down the text and detects the frequency of words
-  2) Out of a unique 'key' list, each word, starting from the highest frequency is given the corresponding element of the 'key' list(eg : first is given 'A', then 'B', then after they are done we give 'AA' then 'AB' and so on)
-  3) First word is replaced by empty string for efficiency
-  4) Then an encrypted sentence and a 'secret' list(containing the order by frequency) are released.
-  5) If single character encrypted word are together, we do not use a separator, but for multiple character we do use
+  1) Breaks down the text and detects the frequency of words  
+  2) Out of a unique 'key' list, each word, starting from the highest frequency is given the corresponding element of the 'key' list(eg : first is given 'A', then 'B', then after they are done we give 'AA' then 'AB' and so on)  
+  3) First word is replaced by empty string for efficiency  
+  4) Then an encrypted sentence and a 'secret' list(containing the order by frequency) are released.  
+  5) If single character encrypted word are together, we do not use a separator, but for multiple character we do use  
 
 Example working:
  Lets say you wish to encrypt the sentence : 'never gonna give you up never gonna let you down'
