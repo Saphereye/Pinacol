@@ -35,8 +35,8 @@ let:11
 down:000  		    
 ```
 Then we will create two files,  
-	1) One our encrypted file, outputFile.das -> .000.111..010.1001. ('.' is separator, you can use anything else)  
-	2) Second a secret file, secret.das -> never gonna you give up let down  
+	1) One our encrypted file, outputFile.das -> ```.000.111..010.1001.``` ('.' is separator, you can use anything else)  
+	2) Second a secret file, secret.das -> ```never gonna you give up let down``` 
 
 ## Thoughts 
 Pinacol acts like a wonderful compression algorithm for large files with lot of patterns  
