@@ -46,3 +46,27 @@ my algorithm(witha big enough key) can compress down to 2 letters(maximum)
 
 Thus ```~50,000 letters + ~1000 whitespaces = ~51,000 bytes  ```
 is compressed down to ```~2000 letters + ~1000 separators = ~3000 bytes ```i.e. 6% of original  
+
+## Room for improvement
+Instead of single words the program should take group of patterns as it's elements  
+eg in the sentence 'never gonna give you up never gonna let you down'  
+
+we can take  
+ ```
+never gonna:2   
+give:1  
+you:2   
+up:1   
+let:1   
+down:1  
+```
+which gives =>   
+ ```
+never gonna:<blank>   
+give:0  
+you:1   
+up:00   
+let:01   
+down:10  
+```  
+finally the code being => .0100..01.110.
