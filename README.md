@@ -46,11 +46,3 @@ my algorithm(witha big enough key) can compress down to 2 letters(maximum)
 
 Thus ```~50,000 letters + ~1000 whitespaces = ~51,000 bytes  ```
 is compressed down to ```~2000 letters + ~1000 separators = ~3000 bytes ```i.e. 6% of original  
-
-Of course, this is based on the assumption that there would be so much repetition, which is perhaps not the case in real life.
-
-In the case of encryption:
-1) If you don't have the 'secret', it's is impossible to find out what words were used
-2) In the case you have both the encoded and secret file, without applying language logic, it would be ```n!``` combinations of the key list
-3) But this can be solved by simply taking into account frequency of symbols in encrypted string and mathcing it with the 'secret' string, unless it is also shuffled which would make it snother ```n!``` cased for the secret.
-	
