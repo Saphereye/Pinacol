@@ -26,13 +26,13 @@ down:1
 ```
  Then on exchanging the values with new values;  
  ```
-never:0   
-gonna:1  
-you:00  
-give:01  
-up:10  
-let:11  
-down:000  		    
+never:<blank>   
+gonna:0  
+you:1  
+give:00  
+up:11  
+let:10  
+down:001  		    
 ```
 Then we will create two files,  
 	1) One our encrypted file, outputFile.das -> ```.000.111..010.1001.``` ('.' is separator, you can use anything else)  
