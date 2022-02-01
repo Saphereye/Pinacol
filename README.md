@@ -69,4 +69,4 @@ up:00
 let:01   
 down:10  
 ```  
-finally the code being => .0100..01.110.
+finally the code being => ```.0100..01.110.```
